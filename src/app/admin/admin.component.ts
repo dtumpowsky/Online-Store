@@ -20,4 +20,5 @@ export class AdminComponent implements OnInit {
     var newAlbum: Album = new Album(title, artist, description);
     this.albumService.addAlbum(newAlbum);
   }
+
 }
